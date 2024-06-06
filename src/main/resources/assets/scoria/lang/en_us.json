@@ -1,5 +1,7 @@
 {
   "item.scoria.scorched_ingot": "Scorched Ingot",
 
-  "creativetab.scoria_tab": "Scoria"
+  "creativetab.scoria_tab": "Scoria",
+
+  "block.scoria.scorched_earth": "Scorched Stone"
 }

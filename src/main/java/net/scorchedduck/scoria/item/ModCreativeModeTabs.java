@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.scorchedduck.scoria.Scoria;
+import net.scorchedduck.scoria.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -19,6 +20,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.scoria_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SCORCHED_INGOT.get());
+
+                        pOutput.accept(ModBlocks.SCORCHED_STONE.get());
                     })
                     .build());
 
