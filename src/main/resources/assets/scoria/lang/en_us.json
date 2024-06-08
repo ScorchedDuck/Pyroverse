@@ -3,5 +3,6 @@
 
   "creativetab.scoria_tab": "Scoria",
 
-  "block.scoria.scorched_earth": "Scorched Stone"
+  "block.scoria.scorched_stone": "Scorched Stone",
+  "block.scoria.scorched_block": "Scorched Block"
 }
