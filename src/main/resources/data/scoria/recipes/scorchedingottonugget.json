@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "scoria:scorched_ingot"
+    }
+  ],
+  "result": {
+    "item": "scoria:scorched_nugget",
+    "count": 9
+  }
+}

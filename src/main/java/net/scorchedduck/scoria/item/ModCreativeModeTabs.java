@@ -20,8 +20,16 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.scoria_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SCORCHED_INGOT.get());
+                        pOutput.accept(ModItems.SCORCHED_NUGGET.get());
 
                         pOutput.accept(ModBlocks.SCORCHED_STONE.get());
+
+                        pOutput.accept(ModBlocks.SCORCHED_BLOCK.get());
+
+                        //ores
+                        pOutput.accept(ModBlocks.SIZZLED_SCORCHED_ORE.get());
+                        pOutput.accept(ModBlocks.BURNT_SCORCHED_ORE.get());
+                        pOutput.accept(ModBlocks.ROASTED_SCORCHED_ORE.get());
                     })
                     .build());
 

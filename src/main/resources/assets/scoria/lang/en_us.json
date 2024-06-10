@@ -1,8 +1,13 @@
 {
   "item.scoria.scorched_ingot": "Scorched Ingot",
+  "item.scoria.scorched_nugget": "Scorched Nugget",
 
   "creativetab.scoria_tab": "Scoria",
 
   "block.scoria.scorched_stone": "Scorched Stone",
-  "block.scoria.scorched_block": "Scorched Block"
+  "block.scoria.scorched_block": "Scorched Block",
+
+  "block.scoria.sizzled_scorched_ore": "Sizzled Scorched Ore",
+  "block.scoria.burnt_scorched_ore": "Burnt Scorched Ore",
+  "block.scoria.roasted_scorched_ore": "Roasted Scorched Ore"
 }

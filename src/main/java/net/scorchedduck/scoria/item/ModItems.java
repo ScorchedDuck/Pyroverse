@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> SCORCHED_INGOT = ITEMS.register("scorched_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SCORCHED_NUGGET = ITEMS.register("scorched_nugget",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

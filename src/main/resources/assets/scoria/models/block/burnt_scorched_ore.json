@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "scoria:block/burnt_scorched_ore"
+  }
+}

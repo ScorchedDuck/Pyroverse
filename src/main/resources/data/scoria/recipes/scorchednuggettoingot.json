@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "scoria:scorched_nugget"
+    }
+  },
+  "result": {
+    "item": "scoria:scorched_ingot"
+  }
+}
